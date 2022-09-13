@@ -1,13 +1,122 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    
-</body>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section>
+      <nav>
+        <img src="./assets/FES.svg" class="logo" />
+        <ul class="home-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#discord">Discord</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <header>
+        <div class="row">
+          <div class="mainheader">
+            <h1>Best place to learn Frontend</h1>
+            <p class="subheader">
+              Go from absolute beginner to pro with a simplified process
+            </p>
+            <button class="start-button">Start now</button>
+          </div>
+          <figure class="home-photo">
+            <img src="./assets/laptop.png" alt="Home Page Picture" />
+          </figure>
+        </div>
+      </header>
+    </section>
+
+    <main>
+      <section id="about">
+        <h2>About</h2>
+        <div class="abouttext">
+          <div class="section__description--para">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit
+              quae impedit, culpa debitis assumenda officia laborum laudantium
+              laboriosam expedita facilis. Velit, possimus unde odio eaque ut
+              aspernatur nam sunt consequuntur!
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
+              dignissimos fugiat cum quod eius repellat nihil? Deserunt modi
+              delectus deleniti, fugiat animi voluptate hic voluptatibus
+              veritatis est a, illo eum.
+            </p>
+          </div>
+          <figure class="section__description--wrapper">
+            <img src="./assets/about.jpg" alt="About Image" />
+          </figure>
+        </div>
+      </section>
+
+      <section id="discord">
+        <h2 class="section__header">Discord</h2>
+        <div class="discord-con">
+          <div class="section__logo">
+            <figure class="discord-logo">
+              <img src="./assets/discord.png" alt="About Image" />
+            </figure>
+          </div>
+          <div class="discord-text">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit
+              quae impedit, culpa debitis assumenda officia laborum laudantium
+              laboriosam expedita facilis. Velit, possimus unde odio eaque ut
+              aspernatur nam sunt consequuntur!
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
+              dignissimos fugiat cum quod eius repellat nihil? Deserunt modi
+              delectus deleniti, fugiat animi voluptate hic voluptatibus
+              veritatis est a, illo eum.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact">
+        <div class="contact-text">
+          <h2>Contact Us</h2>
+        </div>
+        <div>
+          <form>
+            <label>Email</label>
+            <input type="email" placeholder="jane@example.com" />
+            <br />
+
+            <label>Message</label>
+            <textarea placeholder="Type your message..."></textarea>
+            <br />
+
+            <button id="contact-us">Send message</button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer id="footer">
+      <div class="final">
+        <img src="./assets/FES.svg" alt="Frontend Simplified" class="fes" />
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#discord">Discord</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li>
+            <a href="https://frontendsimplified.com" target="_blank">Courses</a>
+          </li>
+        </ul>
+      </div>
+      <div class="copyright">
+        <p class="copyright-text">Copyright Frontend Simplified</p>
+      </div>
+    </footer>
+  </body>
 </html>
